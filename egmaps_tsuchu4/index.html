@@ -3,7 +3,7 @@
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width"/>
 
-	<title>〇〇〇マップ</title>
+	<title>津山市小中学校マップ</title>
 
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"/>
 	<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
@@ -13,10 +13,87 @@
 
 		window.onload = function() {
 			var map = initMap('mapid')
-			map.setZoom(4)
-			map.panTo([ 35.061166,133.998223 ]) // センター（ワードシステム）
+			map.setZoom(14)
+			map.panTo([ 35.067425,134.001229 ]) // センター（津山中学校）
 
-			map.addIcon(35.061166,133.998223,"<a href='http://www.wordsystem.co.jp' target='_blank'>ワードシステム</a><br>住所：津山市鍛治町３７番地<br>電話：0868-23-1820","icon/building11.png")
+			map.addIcon(35.067425,134.001229,"<a href='http://www.tuyama-jhs.okayama-c.ed.jp/' target='_blank'>津山中学校</a><br>住所：津山市椿高下62<br>電話：0868-22-3301","icon/building13.png")
+
+			map.addIcon(35.0662752,134.0377817,"<a href=' http://www.schoolweb.ne.jp/tsuyama/tsuyamahigashi-j/' target='_blank'>東中学校</a><br>住所：押入1110<br>電話：0868-26-1413","icon/building33.png")
+
+			map.addIcon(35.08586393,134.0210262,"<a href='http://www.schoolweb.ne.jp/tsuyama/chudo-j/' target='_blank'>中道中学校</a><br>住所：津山市勝部355<br>電話：0868-23-6755","icon/building33.png")
+
+			map.addIcon(35.08697246,134.0093648,"<a href='http://www.schoolweb.ne.jp/tsuyama/hokuryo-j/' target='_blank'>北稜中学校</a><br>住所：津山市大田160<br>電話：0868-27-0321","icon/building33.png")
+
+			map.addIcon(35.07192004,133.9998022,"<a href='http://www.schoolweb.ne.jp/tsuyama/kakuzan-j/' target='_blank'>鶴山中学校</a><br>住所：津山市山北290<br>電話：0868-22-8231","icon/building23.png")
+
+			map.addIcon(35.06263872,133.9724814,"<a href='http://www.schoolweb.ne.jp/tsuyama/tsuyamanishi-j/' target='_blank'>西中学校</a><br>住所：津山市二宮1256-1<br>電話：0868-28-0141","icon/building23.png")
+
+			map.addIcon(35.17472382,134.0572915,"<a href='http://www.schoolweb.ne.jp/tsuyama/chudo-j/' target='_blank'>加茂中学校</a><br>住所：津山市加茂町桑原280<br>電話：0868-42-3031","icon/building23.png")
+
+
+			map.addIcon(35.10001088,134.1058628,"<a href='http://www.schoolweb.ne.jp/tsuyama/syoboku-j/' target='_blank'>勝北中学校</a><br>住所：津山市原371<br>電話：0868-36-2366","icon/building23.png")
+
+
+			map.addIcon(35.05523616,133.8967428,"<a href='http://www.schoolweb.ne.jp/tsuyama/kume-j/' target='_blank'>久米中学校</a><br>住所：津山市南方中1487-1<br>電話：0868-57-2004","icon/building33.png")
+
+
+
+			map.addIcon(35.07122521,134.0089688,"<a href='http://www.schoolweb.ne.jp/tsuyama/higashi-e/' target='_blank'>東小学校</a><br>住所：津山市山北740<br>電話：0868-22-9194","icon/building12.png")
+
+			map.addIcon(35.06204188,133.9920015,"<a href='http://www.schoolweb.ne.jp/tsuyama/nishi-e/' target='_blank'>西小学校</a><br>住所：津山市小田中1360<br>電話：0868-22-8268","icon/building12.png")
+
+			map.addIcon(35.05502314,133.9955164,"<a href='http://www.schoolweb.ne.jp/tsuyama/minami-e/' target='_blank'>南小学校</a><br>住所：津山市昭和町二丁目73－1<br>電話：0868-22-8145","icon/building12.png")
+
+			map.addIcon(35.0693813,134.0010538,"<a href='http://www.schoolweb.ne.jp/tsuyama/kita-e/' target='_blank'>北小学校</a><br>住所：津山市山北238<br>電話：0868-22-8168","icon/building12.png")
+
+			map.addIcon(35.06490301,134.0255917,"<a href='http://www.schoolweb.ne.jp/tsuyama/haida-e/' target='_blank'>林田小学校</a><br>住所：津山市川崎850<br>電話：0868-22-2764","icon/building22.png")
+
+			map.addIcon(35.07918507,134.0231126,"<a href='http://www.schoolweb.ne.jp/tsuyama/kakuzan-e/' target='_blank'>鶴山小学校</a><br>住所：津山市志戸部121<br>電話：0868-24-4701","icon/building22.png")
+
+			map.addIcon(35.08592464,134.0099354,"<a href='http://www.schoolweb.ne.jp/tsuyama/yayoi-e/' target='_blank'>弥生小学校</a><br>住所：津山市大田121<br>電話：0868-27-1530","icon/building22.png")
+
+			map.addIcon(35.06026506,133.9645667,"<a href='http://www.schoolweb.ne.jp/tsuyama/koyo-e/' target='_blank'>向陽小学校</a><br>住所：津山市二宮608-1<br>電話：0868-28-0553","icon/building22.png")
+
+			map.addIcon(35.08592464,134.0099354,"<a href='http://www.schoolweb.ne.jp/tsuyama/innosyo-e/' target='_blank'>院庄小学校</a><br>住所：津山市院庄1041<br>電話：0868-28-0606","icon/building22.png")
+
+			map.addIcon(35.06026506,133.9645667,"<a href='http://www.schoolweb.ne.jp/tsuyama/sarayama-e/' target='_blank'>佐良山小学校</a><br>住所：津山市皿657-2<br>電話：0868-28-0605","icon/building22.png")
+
+			map.addIcon(35.0606745,133.9473141,"<a href='http://www.schoolweb.ne.jp/tsuyama/ichinomiya-e/' target='_blank'>一宮小学校</a><br>住所：津山市東一宮87-1<br>電話：0868-27-0100","icon/building22.png")
+
+			map.addIcon(35.04449982,133.9694214,"<a href='http://www.schoolweb.ne.jp/tsuyama/takata-e/' target='_blank'>高田小学校</a><br>住所：津山市下横野1075<br>電話：0868-27-0345","icon/building22.png")
+
+			map.addIcon(35.11932873,134.070718,"<a href='http://www.schoolweb.ne.jp/tsuyama/seisen-e/' target='_blank'>清泉小学校</a><br>住所：津山市綾部407<br>電話：0868-29-1518","icon/building22.png")
+
+			map.addIcon(35.09957041,134.0434069
+,"<a href='http://www.schoolweb.ne.jp/tsuyama/takakura-e/' target='_blank'>高倉小学校</a><br>住所：津山市下高倉西12<br>電話：0868-29-0709","icon/building22.png")
+
+			map.addIcon(35.0761315,134.0526548,"<a href='http://www.schoolweb.ne.jp/tsuyama/takano-e/' target='_blank'>高野小学校</a><br>住所：津山市高野本郷1041<br>電話：0868-26-1609","icon/building22.png")
+
+			map.addIcon(35.09021001,134.0526548,"<a href='http://www.schoolweb.ne.jp/tsuyama/seimei-e/' target='_blank'>成名小学校</a><br>住所：津山市野村135-2<br>電話：0868-29-1505","icon/building22.png")
+
+			map.addIcon(35.09021001,134.0735932,"<a href='http://www.schoolweb.ne.jp/tsuyama/kawanabe-e/' target='_blank'>河辺小学校</a><br>住所：津山市国分寺505<br>電話：0868-26-1302","icon/building22.png")
+
+			map.addIcon(35.04944806,134.0652857,"<a href='http://www.schoolweb.ne.jp/tsuyama/ozaki-e/' target='_blank'>大崎小学校</a><br>住所：津山市金井76<br>電話：0868-26-1314","icon/building32.png")
+
+			map.addIcon(35.06989782,134.0825121,"<a href='http://www.schoolweb.ne.jp/tsuyama/hirono-e/' target='_blank'>広野小学校</a><br>住所：津山市田熊1943<br>電話：0868-29-1501","icon/building32.png")
+
+			map.addIcon(35.09029052,134.1019173,"<a href='http://www.schoolweb.ne.jp/tsuyama/syokamo-e/' target='_blank'>勝加茂小学校</a><br>住所：津山市中村125<br>電話：0868-29-0195","icon/building32.png")
+
+			map.addIcon(35.17754014,134.0561984,"<a href='http://www.schoolweb.ne.jp/tsuyama/kamo-e/' target='_blank'>加茂小学校</a><br>住所：津山市加茂町塔中80<br>電話：0868-42-3023","icon/building32.png")
+
+			map.addIcon(35.10975922,134.1081573,"<a href='http://www.schoolweb.ne.jp/tsuyama/nino-e/' target='_blank'>新野小学校</a><br>住所：津山市西中591<br>電話：0868-36-2113","icon/building32.png")
+
+			map.addIcon(35.12784106,134.1233816,"<a href='http://www.schoolweb.ne.jp/tsuyama/hirodo-e/' target='_blank'>広戸小学校</a><br>住所：津山市市場1080-1<br>電話：0868-36-2047","icon/building32.png")
+
+			map.addIcon(35.06167098,133.8538778,"<a href='http://www.schoolweb.ne.jp/tsuyama/kyosyo-e/' target='_blank'>喬松小学校</a><br>住所：津山市坪井上100-1<br>電話：0868-57-2014","icon/building32.png")
+
+			map.addIcon(35.07090834,133.8842472,"<a href='http://www.schoolweb.ne.jp/tsuyama/chuse-e/' target='_blank'>中正小学校</a><br>住所：津山市宮部下686<br>電話：0868-57-2010","icon/building32.png")
+
+			map.addIcon(35.02365714,133.9102093,"<a href='http://www.schoolweb.ne.jp/tsuyama/syujitsu-e/' target='_blank'>秀実小学校</a><br>住所：津山市桑上1<br>電話：0868-57-3009","icon/building32.png")
+
+			map.addIcon(35.05390247,133.918852,"<a href='http://www.schoolweb.ne.jp/tsuyama/sedo-e/' target='_blank'>誠道小学校</a><br>住所：津山市久米川南919<br>電話：0868-57-2785","icon/building32.png")
+
+
 		}
 
 	</script>
@@ -29,9 +106,9 @@
 </head>
 <body>
 
-	<h1>〇〇〇マップ</h1>
+	<h1>津山市小中学校マップ</h1>
 	<div id="mapid"></div>
-    <p>2025.xx.xx 津山中学校第２学年 職場体験学習</p>
+    <p>2025.10.24 津山中学校第２学年 職場体験学習</p>
 
 </body>
 </html>
